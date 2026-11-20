@@ -1,7 +1,17 @@
 {
- "built": "2026-11-17",
+ "built": "2026-11-20",
  "topics": {
   "agent-tooling": [
+   {
+    "id": 10347,
+    "slug": "find-skills",
+    "name": "find-skills",
+    "cmd": "npx skills add vercel-labs/skills --skill find-skills -a claude-code",
+    "source_url": "https://github.com/vercel-labs/skills/blob/50894c1d98bc45ca1ab127213e59d6525065b5e7/skills/find-skills/SKILL.md",
+    "installs": 4400000,
+    "install_ok": true,
+    "ab": null
+   },
    {
     "id": 56,
     "slug": "setup-matt-pocock-skills",
@@ -91,16 +101,6 @@
     "installs": 130949,
     "install_ok": true,
     "ab": null
-   },
-   {
-    "id": 10426,
-    "slug": "orca-cli",
-    "name": "orca-cli",
-    "cmd": "npx skills add stablyai/orca --skill orca-cli -a claude-code",
-    "source_url": "https://github.com/stablyai/orca/blob/b30d12992e702724fffb426759c907d9b4450586/skills/orca-cli/SKILL.md",
-    "installs": 363100,
-    "install_ok": true,
-    "ab": null
    }
   ],
   "frontend": [
@@ -110,7 +110,7 @@
     "name": "design-taste-frontend",
     "cmd": "npx skills add Leonxlnx/taste-skill --skill design-taste-frontend -a claude-code",
     "source_url": "https://github.com/Leonxlnx/taste-skill/blob/f6b76575f949707b4e3c37cd86cb44b0b98643e8/skills/taste-skill/SKILL.md",
-    "installs": 786200,
+    "installs": 802600,
     "install_ok": false,
     "ab": {
      "delta": -0.04,
@@ -185,7 +185,7 @@
     "name": "vercel-composition-patterns",
     "cmd": "npx skills add vercel-labs/agent-skills --skill vercel-composition-patterns -a claude-code",
     "source_url": "https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/composition-patterns/SKILL.md",
-    "installs": 457600,
+    "installs": 464000,
     "install_ok": false,
     "ab": null
    },
@@ -195,7 +195,7 @@
     "name": "emil-design-eng",
     "cmd": "npx skills add emilkowalski/skills --skill emil-design-eng -a claude-code",
     "source_url": "https://github.com/emilkowalski/skills/blob/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/emil-design-eng/SKILL.md",
-    "installs": 453900,
+    "installs": 459000,
     "install_ok": true,
     "ab": {
      "delta": 0.46,
@@ -213,7 +213,7 @@
     "name": "review-animations",
     "cmd": "npx skills add emilkowalski/skills --skill review-animations -a claude-code",
     "source_url": "https://github.com/emilkowalski/skills/blob/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/review-animations/SKILL.md",
-    "installs": 313500,
+    "installs": 317800,
     "install_ok": true,
     "ab": null
    }
@@ -240,6 +240,16 @@
     "ab": null
    },
    {
+    "id": 10659,
+    "slug": "deprecation-and-migration",
+    "name": "deprecation-and-migration",
+    "cmd": "npx skills add addyosmani/agent-skills --skill deprecation-and-migration -a claude-code",
+    "source_url": "https://github.com/addyosmani/agent-skills/blob/39b723ceebf81474d0557c1fecd01eddab585563/skills/deprecation-and-migration/SKILL.md",
+    "installs": 70500,
+    "install_ok": false,
+    "ab": null
+   },
+   {
     "id": 10684,
     "slug": "observability-and-instrumentation",
     "name": "observability-and-instrumentation",
@@ -255,7 +265,7 @@
     "name": "gws-gmail-watch",
     "cmd": "npx skills add googleworkspace/cli --skill gws-gmail-watch -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-gmail-watch/SKILL.md",
-    "installs": 38600,
+    "installs": 38700,
     "install_ok": false,
     "ab": null
    },
@@ -306,16 +316,6 @@
     "cmd": "npx skills add cloudflare/skills --skill wrangler -a claude-code",
     "source_url": "https://github.com/cloudflare/skills/blob/cbf893b954222276bf1af57e5f23379231e0efb9/skills/wrangler/SKILL.md",
     "installs": 149600,
-    "install_ok": false,
-    "ab": null
-   },
-   {
-    "id": 12164,
-    "slug": "backend-patterns",
-    "name": "backend-patterns",
-    "cmd": "npx skills add affaan-m/ECC --skill backend-patterns -a claude-code",
-    "source_url": "https://github.com/affaan-m/ECC/blob/d2ef2680594f9a17526a6e1a2e18b3d242c5d17b/skills/backend-patterns/SKILL.md",
-    "installs": 7700,
     "install_ok": false,
     "ab": null
    }
@@ -392,7 +392,7 @@
     "name": "hallmark",
     "cmd": "npx skills add Nutlope/hallmark --skill hallmark -a claude-code",
     "source_url": "https://github.com/Nutlope/hallmark/blob/04977e15f3dfd6ee4b74c887dac3eb52665d6c92/skills/hallmark/SKILL.md",
-    "installs": 109000,
+    "installs": 115000,
     "install_ok": true,
     "ab": null
    },
@@ -402,7 +402,7 @@
     "name": "apple-design",
     "cmd": "npx skills add emilkowalski/skills --skill apple-design -a claude-code",
     "source_url": "https://github.com/emilkowalski/skills/blob/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/apple-design/SKILL.md",
-    "installs": 305400,
+    "installs": 310000,
     "install_ok": true,
     "ab": null
    },
@@ -519,8 +519,8 @@
     "slug": "verify-and-stop",
     "name": "verify-and-stop",
     "cmd": "npx skills add JuliusBrussee/caveman --skill verify-and-stop -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/verify-and-stop/SKILL.md",
-    "installs": 126300,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/verify-and-stop/SKILL.md",
+    "installs": 129000,
     "install_ok": true,
     "ab": null
    },
@@ -529,8 +529,8 @@
     "slug": "surgical-patch",
     "name": "surgical-patch",
     "cmd": "npx skills add JuliusBrussee/caveman --skill surgical-patch -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/surgical-patch/SKILL.md",
-    "installs": 126100,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/surgical-patch/SKILL.md",
+    "installs": 128900,
     "install_ok": true,
     "ab": null
    },
@@ -606,8 +606,8 @@
     "slug": "caveman-review",
     "name": "caveman-review",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-review -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-review/SKILL.md",
-    "installs": 434700,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-review/SKILL.md",
+    "installs": 437600,
     "install_ok": true,
     "ab": {
      "delta": -0.21,
@@ -651,8 +651,8 @@
     "slug": "caveman-explore",
     "name": "caveman-explore",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-explore -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-explore/SKILL.md",
-    "installs": 129100,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-explore/SKILL.md",
+    "installs": 131900,
     "install_ok": true,
     "ab": null
    }
@@ -664,7 +664,7 @@
     "name": "security-audit",
     "cmd": "npx skills add cloudflare/security-audit-skill --skill security-audit -a claude-code",
     "source_url": "https://github.com/cloudflare/security-audit-skill/blob/c1c8a8c1471069fb0e188eeaff69b8e8db6564a8/skills/security-audit/SKILL.md",
-    "installs": 111000,
+    "installs": 116100,
     "install_ok": true,
     "ab": null
    },
@@ -714,7 +714,7 @@
     "name": "persona-it-admin",
     "cmd": "npx skills add googleworkspace/cli --skill persona-it-admin -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/persona-it-admin/SKILL.md",
-    "installs": 31000,
+    "installs": 31100,
     "install_ok": false,
     "ab": null
    },
@@ -724,7 +724,7 @@
     "name": "gws-modelarmor",
     "cmd": "npx skills add googleworkspace/cli --skill gws-modelarmor -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-modelarmor/SKILL.md",
-    "installs": 30900,
+    "installs": 31000,
     "install_ok": false,
     "ab": null
    },
@@ -734,7 +734,7 @@
     "name": "gws-modelarmor-create-template",
     "cmd": "npx skills add googleworkspace/cli --skill gws-modelarmor-create-template -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-modelarmor-create-template/SKILL.md",
-    "installs": 30800,
+    "installs": 30900,
     "install_ok": false,
     "ab": null
    },
@@ -806,7 +806,7 @@
     "name": "vercel-cli-with-tokens",
     "cmd": "npx skills add vercel-labs/agent-skills --skill vercel-cli-with-tokens -a claude-code",
     "source_url": "https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/vercel-cli-with-tokens/SKILL.md",
-    "installs": 156700,
+    "installs": 160500,
     "install_ok": false,
     "ab": null
    },
@@ -826,7 +826,7 @@
     "name": "vercel-optimize",
     "cmd": "npx skills add vercel-labs/agent-skills --skill vercel-optimize -a claude-code",
     "source_url": "https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/vercel-optimize/SKILL.md",
-    "installs": 132700,
+    "installs": 136600,
     "install_ok": false,
     "ab": null
    },
@@ -878,7 +878,7 @@
     "name": "gws-drive-upload",
     "cmd": "npx skills add googleworkspace/cli --skill gws-drive-upload -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-drive-upload/SKILL.md",
-    "installs": 51200,
+    "installs": 51400,
     "install_ok": false,
     "ab": null
    },
@@ -888,7 +888,7 @@
     "name": "gws-events-subscribe",
     "cmd": "npx skills add googleworkspace/cli --skill gws-events-subscribe -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-events-subscribe/SKILL.md",
-    "installs": 31700,
+    "installs": 31800,
     "install_ok": false,
     "ab": null
    },
@@ -907,7 +907,7 @@
     "slug": "google-cloud-waf-cost-optimization",
     "name": "google-cloud-waf-cost-optimization",
     "cmd": "npx skills add google/skills --skill google-cloud-waf-cost-optimization -a claude-code",
-    "source_url": "https://github.com/google/skills/blob/e5250c8a02c28097b11a0c22d77143f4a0e5a408/skills/cloud/google-cloud-waf-cost-optimization/SKILL.md",
+    "source_url": "https://github.com/google/skills/blob/06fff9e3edb7fc3c115a1769406047fcaf0a6289/skills/cloud/google-cloud-waf-cost-optimization/SKILL.md",
     "installs": 14266,
     "install_ok": false,
     "ab": null
@@ -917,18 +917,18 @@
     "slug": "firebase-basics",
     "name": "firebase-basics",
     "cmd": "npx skills add google/skills --skill firebase-basics -a claude-code",
-    "source_url": "https://github.com/google/skills/blob/e5250c8a02c28097b11a0c22d77143f4a0e5a408/skills/cloud/firebase-basics/SKILL.md",
+    "source_url": "https://github.com/google/skills/blob/06fff9e3edb7fc3c115a1769406047fcaf0a6289/skills/cloud/firebase-basics/SKILL.md",
     "installs": 14100,
     "install_ok": false,
     "ab": null
    },
    {
-    "id": 605,
-    "slug": "google-cloud-networking-observability",
-    "name": "google-cloud-networking-observability",
-    "cmd": "npx skills add google/skills --skill google-cloud-networking-observability -a claude-code",
-    "source_url": "https://github.com/google/skills/blob/e5250c8a02c28097b11a0c22d77143f4a0e5a408/skills/cloud/google-cloud-networking-observability/SKILL.md",
-    "installs": 11856,
+    "id": 572,
+    "slug": "gke-basics",
+    "name": "gke-basics",
+    "cmd": "npx skills add google/skills --skill gke-basics -a claude-code",
+    "source_url": "https://github.com/google/skills/blob/06fff9e3edb7fc3c115a1769406047fcaf0a6289/skills/cloud/gke-basics/SKILL.md",
+    "installs": 13953,
     "install_ok": false,
     "ab": null
    },
@@ -938,7 +938,7 @@
     "name": "firebase-app-hosting-basics",
     "cmd": "npx skills add firebase/agent-skills --skill firebase-app-hosting-basics -a claude-code",
     "source_url": "https://github.com/firebase/agent-skills/blob/99954a30898bb5ddc8152ee10e124dc3b4106bf7/skills/firebase-app-hosting-basics/SKILL.md",
-    "installs": 180100,
+    "installs": 180900,
     "install_ok": false,
     "ab": null
    },
@@ -948,7 +948,7 @@
     "name": "firebase-crashlytics",
     "cmd": "npx skills add firebase/agent-skills --skill firebase-crashlytics -a claude-code",
     "source_url": "https://github.com/firebase/agent-skills/blob/99954a30898bb5ddc8152ee10e124dc3b4106bf7/skills/firebase-crashlytics/SKILL.md",
-    "installs": 142100,
+    "installs": 142900,
     "install_ok": false,
     "ab": null
    },
@@ -969,8 +969,8 @@
     "slug": "migration",
     "name": "migration",
     "cmd": "npx skills add JuliusBrussee/caveman --skill migration -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/migration/SKILL.md",
-    "installs": 125000,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/migration/SKILL.md",
+    "installs": 127700,
     "install_ok": true,
     "ab": {
      "delta": 0.43,
@@ -981,6 +981,16 @@
      "ru": "лучший по знаку, 5 из 6 оценок в плюс",
      "en": "best by sign, 5 of 6 scores positive"
     }
+   },
+   {
+    "id": 10900,
+    "slug": "recipe-compare-sheet-tabs",
+    "name": "recipe-compare-sheet-tabs",
+    "cmd": "npx skills add googleworkspace/cli --skill recipe-compare-sheet-tabs -a claude-code",
+    "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/recipe-compare-sheet-tabs/SKILL.md",
+    "installs": 31800,
+    "install_ok": false,
+    "ab": null
    },
    {
     "id": 12276,
@@ -1027,7 +1037,7 @@
     "slug": "bigquery-basics",
     "name": "bigquery-basics",
     "cmd": "npx skills add google/skills --skill bigquery-basics -a claude-code",
-    "source_url": "https://github.com/google/skills/blob/e5250c8a02c28097b11a0c22d77143f4a0e5a408/skills/cloud/bigquery-basics/SKILL.md",
+    "source_url": "https://github.com/google/skills/blob/06fff9e3edb7fc3c115a1769406047fcaf0a6289/skills/cloud/bigquery-basics/SKILL.md",
     "installs": 17678,
     "install_ok": false,
     "ab": null
@@ -1047,7 +1057,7 @@
     "slug": "alloydb-basics",
     "name": "alloydb-basics",
     "cmd": "npx skills add google/skills --skill alloydb-basics -a claude-code",
-    "source_url": "https://github.com/google/skills/blob/e5250c8a02c28097b11a0c22d77143f4a0e5a408/skills/cloud/alloydb-basics/SKILL.md",
+    "source_url": "https://github.com/google/skills/blob/06fff9e3edb7fc3c115a1769406047fcaf0a6289/skills/cloud/alloydb-basics/SKILL.md",
     "installs": 12991,
     "install_ok": false,
     "ab": null
@@ -1059,16 +1069,6 @@
     "cmd": "npx skills add wshobson/agents --skill postgresql-table-design -a claude-code",
     "source_url": "https://github.com/wshobson/agents/blob/4bde3168b43c0655c4d00ea2726e631719908a6d/plugins/database-design/skills/postgresql-table-design/SKILL.md",
     "installs": 27780,
-    "install_ok": false,
-    "ab": null
-   },
-   {
-    "id": 13541,
-    "slug": "bytedance-data-analysis",
-    "name": "data-analysis",
-    "cmd": "npx skills add bytedance/deer-flow --skill data-analysis -a claude-code",
-    "source_url": "https://github.com/bytedance/deer-flow/blob/4a27b133f81dfa621bf17635f2659bef2eebb7fd/skills/public/data-analysis/SKILL.md",
-    "installs": 3700,
     "install_ok": false,
     "ab": null
    }
@@ -1109,8 +1109,8 @@
     "slug": "caveman-stats",
     "name": "caveman-stats",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-stats -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-stats/SKILL.md",
-    "installs": 381900,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-stats/SKILL.md",
+    "installs": 385600,
     "install_ok": true,
     "ab": null
    },
@@ -1149,8 +1149,8 @@
     "slug": "caveman-optimize",
     "name": "caveman-optimize",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-optimize -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-optimize/SKILL.md",
-    "installs": 127200,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-optimize/SKILL.md",
+    "installs": 129900,
     "install_ok": true,
     "ab": null
    },
@@ -1159,8 +1159,8 @@
     "slug": "caveman-evidence-review",
     "name": "caveman-evidence-review",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-evidence-review -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-evidence-review/SKILL.md",
-    "installs": 125700,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-evidence-review/SKILL.md",
+    "installs": 128400,
     "install_ok": true,
     "ab": null
    },
@@ -1177,12 +1177,22 @@
   ],
   "automation": [
    {
+    "id": 10376,
+    "slug": "lark-event",
+    "name": "lark-event",
+    "cmd": "npx skills add larksuite/cli --skill lark-event -a claude-code",
+    "source_url": "https://github.com/larksuite/cli/blob/3d82c85419ad7560ad017db7a3972a596b5fbeb1/skills/lark-event/SKILL.md",
+    "installs": 484000,
+    "install_ok": true,
+    "ab": null
+   },
+   {
     "id": 10583,
     "slug": "gws-gmail-send",
     "name": "gws-gmail-send",
     "cmd": "npx skills add googleworkspace/cli --skill gws-gmail-send -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-gmail-send/SKILL.md",
-    "installs": 76600,
+    "installs": 76800,
     "install_ok": false,
     "ab": null
    },
@@ -1192,7 +1202,7 @@
     "name": "recipe-email-drive-link",
     "cmd": "npx skills add googleworkspace/cli --skill recipe-email-drive-link -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/recipe-email-drive-link/SKILL.md",
-    "installs": 32400,
+    "installs": 32500,
     "install_ok": false,
     "ab": null
    },
@@ -1202,7 +1212,7 @@
     "name": "recipe-label-and-archive-emails",
     "cmd": "npx skills add googleworkspace/cli --skill recipe-label-and-archive-emails -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/recipe-label-and-archive-emails/SKILL.md",
-    "installs": 31400,
+    "installs": 31500,
     "install_ok": false,
     "ab": null
    },
@@ -1265,16 +1275,6 @@
     "installs": 3100,
     "install_ok": false,
     "ab": null
-   },
-   {
-    "id": 12115,
-    "slug": "iros-registry-automation",
-    "name": "iros-registry-automation",
-    "cmd": "npx skills add NomaDamas/k-skill --skill iros-registry-automation -a claude-code",
-    "source_url": "https://github.com/NomaDamas/k-skill/blob/9766d20fb1fe1a5eb1d10ef5ff9872c8d6fc4985/iros-registry-automation/SKILL.md",
-    "installs": 11000,
-    "install_ok": false,
-    "ab": null
    }
   ],
   "docs": [
@@ -1333,8 +1333,8 @@
     "slug": "caveman-help",
     "name": "caveman-help",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-help -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-help/SKILL.md",
-    "installs": 425100,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-help/SKILL.md",
+    "installs": 427900,
     "install_ok": true,
     "ab": null
    },
@@ -1353,8 +1353,8 @@
     "slug": "archify",
     "name": "archify",
     "cmd": "npx skills add tt-a1i/archify --skill archify -a claude-code",
-    "source_url": "https://github.com/tt-a1i/archify/blob/a7ed6fd6657da90414831d1d42cf95987188750c/archify/SKILL.md",
-    "installs": 192900,
+    "source_url": "https://github.com/tt-a1i/archify/blob/44781293f38728baf04dbad33ce1a0cef8c39cca/archify/SKILL.md",
+    "installs": 193400,
     "install_ok": true,
     "ab": null
    },
@@ -1364,7 +1364,7 @@
     "name": "writing-guidelines",
     "cmd": "npx skills add vercel-labs/agent-skills --skill writing-guidelines -a claude-code",
     "source_url": "https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/writing-guidelines/SKILL.md",
-    "installs": 129300,
+    "installs": 133400,
     "install_ok": false,
     "ab": null
    },
@@ -1416,7 +1416,7 @@
     "name": "gws-sheets",
     "cmd": "npx skills add googleworkspace/cli --skill gws-sheets -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-sheets/SKILL.md",
-    "installs": 61600,
+    "installs": 61900,
     "install_ok": false,
     "ab": null
    },
@@ -1426,7 +1426,7 @@
     "name": "gws-sheets-read",
     "cmd": "npx skills add googleworkspace/cli --skill gws-sheets-read -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-sheets-read/SKILL.md",
-    "installs": 52600,
+    "installs": 52800,
     "install_ok": false,
     "ab": null
    },
@@ -1436,7 +1436,7 @@
     "name": "gws-slides",
     "cmd": "npx skills add googleworkspace/cli --skill gws-slides -a claude-code",
     "source_url": "https://github.com/googleworkspace/cli/blob/cd3697e07eb520056dcf142d0c7439bbb9ba32e9/skills/gws-slides/SKILL.md",
-    "installs": 43600,
+    "installs": 43700,
     "install_ok": false,
     "ab": null
    },
@@ -1557,8 +1557,8 @@
     "slug": "fixing-metadata",
     "name": "fixing-metadata",
     "cmd": "npx skills add ibelick/ui-skills --skill fixing-metadata -a claude-code",
-    "source_url": "https://github.com/ibelick/ui-skills/blob/f511eae41c996e3953fbeabf95d38e4077d40711/skills/fixing-metadata/SKILL.md",
-    "installs": 20000,
+    "source_url": "https://github.com/ibelick/ui-skills/blob/347d3189830f8ec3c4c041421bce19182a79dc7a/skills/fixing-metadata/SKILL.md",
+    "installs": 20200,
     "install_ok": false,
     "ab": null
    },
@@ -1567,7 +1567,7 @@
     "slug": "every-app-keyword-research",
     "name": "keyword-research",
     "cmd": "npx skills add every-app/open-seo --skill keyword-research -a claude-code",
-    "source_url": "https://github.com/every-app/open-seo/blob/46b815be34723e46ceeefe9b2b907bb62b62fd76/plugins/openseo/skills/keyword-research/SKILL.md",
+    "source_url": "https://github.com/every-app/open-seo/blob/14402bf60409e9024d6de8f008843a4c9bedca8a/plugins/openseo/skills/keyword-research/SKILL.md",
     "installs": 7800,
     "install_ok": false,
     "ab": null
@@ -1577,8 +1577,8 @@
     "slug": "competitor-analysis",
     "name": "competitor-analysis",
     "cmd": "npx skills add every-app/open-seo --skill competitor-analysis -a claude-code",
-    "source_url": "https://github.com/every-app/open-seo/blob/46b815be34723e46ceeefe9b2b907bb62b62fd76/plugins/openseo/skills/competitor-analysis/SKILL.md",
-    "installs": 7500,
+    "source_url": "https://github.com/every-app/open-seo/blob/14402bf60409e9024d6de8f008843a4c9bedca8a/plugins/openseo/skills/competitor-analysis/SKILL.md",
+    "installs": 7600,
     "install_ok": false,
     "ab": null
    },
@@ -1587,8 +1587,8 @@
     "slug": "seo-project-setup",
     "name": "seo-project-setup",
     "cmd": "npx skills add every-app/open-seo --skill seo-project-setup -a claude-code",
-    "source_url": "https://github.com/every-app/open-seo/blob/46b815be34723e46ceeefe9b2b907bb62b62fd76/plugins/openseo/skills/seo-project-setup/SKILL.md",
-    "installs": 7500,
+    "source_url": "https://github.com/every-app/open-seo/blob/14402bf60409e9024d6de8f008843a4c9bedca8a/plugins/openseo/skills/seo-project-setup/SKILL.md",
+    "installs": 7600,
     "install_ok": false,
     "ab": null
    }
@@ -1635,17 +1635,7 @@
     "name": "brag",
     "cmd": "npx skills add latent-spaces/brag --skill brag -a claude-code",
     "source_url": "https://github.com/latent-spaces/brag/blob/06379432a9243c951dfcc051153be18d2d261044/skills/brag/SKILL.md",
-    "installs": 24600,
-    "install_ok": false,
-    "ab": null
-   },
-   {
-    "id": 10840,
-    "slug": "baoyu-post-to-wechat",
-    "name": "baoyu-post-to-wechat",
-    "cmd": "npx skills add JimLiu/baoyu-skills --skill baoyu-post-to-wechat -a claude-code",
-    "source_url": "https://github.com/JimLiu/baoyu-skills/blob/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/skills/baoyu-post-to-wechat/SKILL.md",
-    "installs": 35000,
+    "installs": 25000,
     "install_ok": false,
     "ab": null
    },
@@ -1656,6 +1646,16 @@
     "cmd": "npx skills add higgsfield-ai/skills --skill higgsfield-video-explainer -a claude-code",
     "source_url": "https://github.com/higgsfield-ai/skills/blob/27000402070db19d958789d05b3b52b6f4718d7c/higgsfield-video-explainer/SKILL.md",
     "installs": 154400,
+    "install_ok": false,
+    "ab": null
+   },
+   {
+    "id": 10840,
+    "slug": "baoyu-post-to-wechat",
+    "name": "baoyu-post-to-wechat",
+    "cmd": "npx skills add JimLiu/baoyu-skills --skill baoyu-post-to-wechat -a claude-code",
+    "source_url": "https://github.com/JimLiu/baoyu-skills/blob/ca703c2d7c2c4399a1dc0cf82224f8551e05a96d/skills/baoyu-post-to-wechat/SKILL.md",
+    "installs": 35000,
     "install_ok": false,
     "ab": null
    },
@@ -1695,7 +1695,7 @@
     "name": "reddit-automation",
     "cmd": "npx skills add flowkit-labs/skills --skill reddit-automation -a claude-code",
     "source_url": "https://github.com/flowkit-labs/skills/blob/0c9e2b63f504a296a86e45ed3a60a426dd979ca6/reddit-automation/SKILL.md",
-    "installs": 1400000,
+    "installs": 1500000,
     "install_ok": false,
     "ab": null
    }
@@ -1726,8 +1726,8 @@
     "slug": "playwright-cli",
     "name": "playwright-cli",
     "cmd": "npx skills add microsoft/playwright-cli --skill playwright-cli -a claude-code",
-    "source_url": "https://github.com/microsoft/playwright-cli/blob/b21724888b8100b05ef8dee3a92f2bb03bf4dcde/skills/playwright-cli/SKILL.md",
-    "installs": 218400,
+    "source_url": "https://github.com/microsoft/playwright-cli/blob/c872a33cec77fa03c28fa7c6d1ad99d15d04ce42/skills/playwright-cli/SKILL.md",
+    "installs": 221700,
     "install_ok": true,
     "ab": null
    },
@@ -1747,7 +1747,7 @@
     "name": "ego-browser",
     "cmd": "npx skills add citrolabs/ego-lite --skill ego-browser -a claude-code",
     "source_url": "https://github.com/citrolabs/ego-lite/blob/f499162d1b911ba9b320ed31b741dba7ebc2e4d6/skills/ego-browser/SKILL.md",
-    "installs": 17500,
+    "installs": 18400,
     "install_ok": false,
     "ab": null
    },
@@ -1809,7 +1809,7 @@
     "name": "vercel-react-native-skills",
     "cmd": "npx skills add vercel-labs/agent-skills --skill vercel-react-native-skills -a claude-code",
     "source_url": "https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/react-native-skills/SKILL.md",
-    "installs": 279400,
+    "installs": 283800,
     "install_ok": false,
     "ab": null
    },
@@ -1819,7 +1819,7 @@
     "name": "write-swift",
     "cmd": "npx skills add emilkowalski/skills --skill write-swift -a claude-code",
     "source_url": "https://github.com/emilkowalski/skills/blob/64eb3deb9a5fbfa041faf783e0bc3fd635872e9c/skills/write-swift/SKILL.md",
-    "installs": 165900,
+    "installs": 169400,
     "install_ok": true,
     "ab": null
    },
@@ -1839,7 +1839,7 @@
     "name": "swiftui-pro",
     "cmd": "npx skills add twostraws/SwiftUI-Agent-Skill --skill swiftui-pro -a claude-code",
     "source_url": "https://github.com/twostraws/SwiftUI-Agent-Skill/blob/f2920b63995263f57b3e198674e89a602efba6d2/swiftui-pro/SKILL.md",
-    "installs": 38300,
+    "installs": 38500,
     "install_ok": false,
     "ab": null
    },
@@ -1869,7 +1869,7 @@
     "name": "swiftui-expert-skill",
     "cmd": "npx skills add AvdLee/SwiftUI-Agent-Skill --skill swiftui-expert-skill -a claude-code",
     "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/blob/62bd760f005093d1e2e4de5db156e456a5f96400/skills/swiftui-expert-skill/SKILL.md",
-    "installs": 36700,
+    "installs": 36800,
     "install_ok": false,
     "ab": null
    },
@@ -1966,16 +1966,6 @@
     "ab": null
    },
    {
-    "id": 14462,
-    "slug": "fal-3d",
-    "name": "fal-3d",
-    "cmd": "npx skills add nexu-io/open-design --skill fal-3d -a claude-code",
-    "source_url": "https://github.com/nexu-io/open-design/blob/59e4f2ae85de7e7318a5e6bdcf3a34584c4b7582/skills/fal-3d/SKILL.md",
-    "installs": 3000,
-    "install_ok": false,
-    "ab": null
-   },
-   {
     "id": 20349,
     "slug": "game-feel",
     "name": "game-feel",
@@ -1996,12 +1986,22 @@
     "ab": null
    },
    {
+    "id": 14462,
+    "slug": "fal-3d",
+    "name": "fal-3d",
+    "cmd": "npx skills add nexu-io/open-design --skill fal-3d -a claude-code",
+    "source_url": "https://github.com/nexu-io/open-design/blob/59e4f2ae85de7e7318a5e6bdcf3a34584c4b7582/skills/fal-3d/SKILL.md",
+    "installs": 3000,
+    "install_ok": false,
+    "ab": null
+   },
+   {
     "id": 14956,
     "slug": "minimax-ai-shader-dev",
     "name": "shader-dev",
     "cmd": "npx skills add MiniMax-AI/skills --skill shader-dev -a claude-code",
     "source_url": "https://github.com/MiniMax-AI/skills/blob/02853d885acb1abc157477ce00c4d98a8ed14a71/skills/shader-dev/SKILL.md",
-    "installs": 2700,
+    "installs": 2800,
     "install_ok": false,
     "ab": null
    }
@@ -2098,12 +2098,12 @@
     "ab": null
    },
    {
-    "id": 12655,
-    "slug": "anthropics-start",
-    "name": "start",
-    "cmd": "npx skills add anthropics/knowledge-work-plugins --skill start -a claude-code",
-    "source_url": "https://github.com/anthropics/knowledge-work-plugins/blob/e91a134584eb798bac7fb0379358006a2b63b965/bio-research/skills/start/SKILL.md",
-    "installs": 5000,
+    "id": 187,
+    "slug": "math-olympiad",
+    "name": "math-olympiad",
+    "cmd": "npx skills add anthropics/claude-plugins-official --skill math-olympiad -a claude-code",
+    "source_url": "https://github.com/anthropics/claude-plugins-official/blob/b5b01ac4f889fec0c4c6bb89f27ca7c8574473f6/plugins/math-olympiad/skills/math-olympiad/SKILL.md",
+    "installs": 4024,
     "install_ok": false,
     "ab": null
    }
@@ -2154,8 +2154,8 @@
     "slug": "caveman-commit",
     "name": "caveman-commit",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-commit -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-commit/SKILL.md",
-    "installs": 438700,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-commit/SKILL.md",
+    "installs": 441600,
     "install_ok": true,
     "ab": null
    },
@@ -2212,16 +2212,6 @@
   ],
   "productivity": [
    {
-    "id": 10347,
-    "slug": "find-skills",
-    "name": "find-skills",
-    "cmd": "npx skills add vercel-labs/skills --skill find-skills -a claude-code",
-    "source_url": "https://github.com/vercel-labs/skills/blob/50894c1d98bc45ca1ab127213e59d6525065b5e7/skills/find-skills/SKILL.md",
-    "installs": 4400000,
-    "install_ok": true,
-    "ab": null
-   },
-   {
     "id": 1529,
     "slug": "grill-me",
     "name": "grill-me",
@@ -2262,42 +2252,12 @@
     "ab": null
    },
    {
-    "id": 10361,
-    "slug": "juliusbrussee-caveman",
-    "name": "caveman",
-    "cmd": "npx skills add JuliusBrussee/caveman --skill caveman -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman/SKILL.md",
-    "installs": 630200,
-    "install_ok": true,
-    "ab": null
-   },
-   {
-    "id": 10719,
-    "slug": "ponytail-help",
-    "name": "ponytail-help",
-    "cmd": "npx skills add DietrichGebert/ponytail --skill ponytail-help -a claude-code",
-    "source_url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail-help/SKILL.md",
-    "installs": 56400,
-    "install_ok": true,
-    "ab": null
-   },
-   {
-    "id": 10744,
-    "slug": "ponytail-gain",
-    "name": "ponytail-gain",
-    "cmd": "npx skills add DietrichGebert/ponytail --skill ponytail-gain -a claude-code",
-    "source_url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail-gain/SKILL.md",
-    "installs": 54200,
-    "install_ok": true,
-    "ab": null
-   },
-   {
     "id": 10512,
     "slug": "caveman-learn",
     "name": "caveman-learn",
     "cmd": "npx skills add JuliusBrussee/caveman --skill caveman-learn -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/caveman-learn/SKILL.md",
-    "installs": 128200,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/caveman-learn/SKILL.md",
+    "installs": 130900,
     "install_ok": true,
     "ab": null
    },
@@ -2306,9 +2266,49 @@
     "slug": "lean-build",
     "name": "lean-build",
     "cmd": "npx skills add JuliusBrussee/caveman --skill lean-build -a claude-code",
-    "source_url": "https://github.com/JuliusBrussee/caveman/blob/9b243662ff98d392bc0a95b865a554583d71be75/skills/lean-build/SKILL.md",
-    "installs": 125800,
+    "source_url": "https://github.com/JuliusBrussee/caveman/blob/a192894723a8f47e7f504c7b5041967ff1f18e55/skills/lean-build/SKILL.md",
+    "installs": 128500,
     "install_ok": true,
+    "ab": null
+   },
+   {
+    "id": 10627,
+    "slug": "planning-and-task-breakdown",
+    "name": "planning-and-task-breakdown",
+    "cmd": "npx skills add addyosmani/agent-skills --skill planning-and-task-breakdown -a claude-code",
+    "source_url": "https://github.com/addyosmani/agent-skills/blob/39b723ceebf81474d0557c1fecd01eddab585563/skills/planning-and-task-breakdown/SKILL.md",
+    "installs": 77900,
+    "install_ok": false,
+    "ab": null
+   },
+   {
+    "id": 10568,
+    "slug": "obsidian-cli",
+    "name": "obsidian-cli",
+    "cmd": "npx skills add obsidianmd/obsidian-skills --skill obsidian-cli -a claude-code",
+    "source_url": "https://github.com/obsidianmd/obsidian-skills/blob/398127736bd4ba42d767b1419fee1a927508370b/plugins/obsidian/skills/obsidian-cli/SKILL.md",
+    "installs": 83700,
+    "install_ok": false,
+    "ab": null
+   },
+   {
+    "id": 46754,
+    "slug": "obsidianmd-obsidian-bases",
+    "name": "obsidian-bases",
+    "cmd": "npx skills add obsidianmd/obsidian-skills --skill obsidian-bases -a claude-code",
+    "source_url": "https://github.com/obsidianmd/obsidian-skills/blob/398127736bd4ba42d767b1419fee1a927508370b/plugins/obsidian/skills/obsidian-bases/SKILL.md",
+    "installs": 83600,
+    "install_ok": false,
+    "ab": null
+   },
+   {
+    "id": 10639,
+    "slug": "incremental-implementation",
+    "name": "incremental-implementation",
+    "cmd": "npx skills add addyosmani/agent-skills --skill incremental-implementation -a claude-code",
+    "source_url": "https://github.com/addyosmani/agent-skills/blob/39b723ceebf81474d0557c1fecd01eddab585563/skills/incremental-implementation/SKILL.md",
+    "installs": 75300,
+    "install_ok": false,
     "ab": null
    }
   ],
@@ -2348,7 +2348,7 @@
     "slug": "earnings-analysis",
     "name": "earnings-analysis",
     "cmd": "npx skills add anthropics/financial-services --skill earnings-analysis -a claude-code",
-    "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md",
+    "source_url": "https://github.com/anthropics/financial-services/blob/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md",
     "installs": 3700,
     "install_ok": false,
     "ab": null
@@ -2358,7 +2358,7 @@
     "slug": "equity-research",
     "name": "equity-research",
     "cmd": "npx skills add anthropics/financial-services --skill equity-research -a claude-code",
-    "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/plugins/partner-built/lseg/skills/equity-research/SKILL.md",
+    "source_url": "https://github.com/anthropics/financial-services/blob/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f/plugins/partner-built/lseg/skills/equity-research/SKILL.md",
     "installs": 3400,
     "install_ok": false,
     "ab": null
@@ -2368,7 +2368,7 @@
     "slug": "consulting-analysis",
     "name": "consulting-analysis",
     "cmd": "npx skills add bytedance/deer-flow --skill consulting-analysis -a claude-code",
-    "source_url": "https://github.com/bytedance/deer-flow/blob/4a27b133f81dfa621bf17635f2659bef2eebb7fd/skills/public/consulting-analysis/SKILL.md",
+    "source_url": "https://github.com/bytedance/deer-flow/blob/c18df580f61aa104d823ecbd0e7b362576eb7395/skills/public/consulting-analysis/SKILL.md",
     "installs": 3100,
     "install_ok": false,
     "ab": null
@@ -2398,8 +2398,8 @@
     "slug": "dcf-model",
     "name": "dcf-model",
     "cmd": "npx skills add anthropics/financial-services --skill dcf-model -a claude-code",
-    "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/plugins/agent-plugins/model-builder/skills/dcf-model/SKILL.md",
-    "installs": 2600,
+    "source_url": "https://github.com/anthropics/financial-services/blob/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f/plugins/agent-plugins/model-builder/skills/dcf-model/SKILL.md",
+    "installs": 2700,
     "install_ok": false,
     "ab": null
    },
@@ -2470,7 +2470,7 @@
     "slug": "design-patterns",
     "name": "design-patterns",
     "cmd": "npx skills add rtk-ai/rtk --skill design-patterns -a claude-code",
-    "source_url": "https://github.com/rtk-ai/rtk/blob/2a786dca60fa4759f4f8381262a6a3b98256667a/.claude/skills/design-patterns/SKILL.md",
+    "source_url": "https://github.com/rtk-ai/rtk/blob/3ab08beca3f4d7a2d5b9f0f494e13ce1d5e81fb2/.claude/skills/design-patterns/SKILL.md",
     "installs": 2000,
     "install_ok": false,
     "ab": null
@@ -2542,7 +2542,7 @@
     "slug": "tg-bot-binding",
     "name": "tg-bot-binding",
     "cmd": "npx skills add Starchild-ai-agent/official-skills --skill tg-bot-binding -a claude-code",
-    "source_url": "https://github.com/Starchild-ai-agent/official-skills/blob/0996b6d9872e0513160d4436e8f615b8097bcf59/tg-bot-binding/SKILL.md",
+    "source_url": "https://github.com/Starchild-ai-agent/official-skills/blob/d7df896c602f2f14b0c17d66727bc7510d84b48a/tg-bot-binding/SKILL.md",
     "installs": 2200,
     "install_ok": false,
     "ab": null
@@ -2573,7 +2573,7 @@
     "name": "telegram-group-analytics-bot",
     "cmd": "npx skills add reason-machines/data-skills --skill telegram-group-analytics-bot -a claude-code",
     "source_url": "https://github.com/reason-machines/data-skills/blob/25d6ee79eea935ef4be1ee375a5777b2ad259f0a/skills/telegram-group-analytics-bot/SKILL.md",
-    "installs": 614,
+    "installs": 615,
     "install_ok": false,
     "ab": null
    },
@@ -2583,7 +2583,7 @@
     "name": "telegram-group-statistics-analytics-bot",
     "cmd": "npx skills add reason-machines/data-skills --skill telegram-group-statistics-analytics-bot -a claude-code",
     "source_url": "https://github.com/reason-machines/data-skills/blob/25d6ee79eea935ef4be1ee375a5777b2ad259f0a/skills/telegram-group-statistics-analytics-bot/SKILL.md",
-    "installs": 609,
+    "installs": 610,
     "install_ok": false,
     "ab": null
    },
